@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="Model.Image">
+        <table name="image" schema="SOA" catalog=""/>
+        <id-class class="Model.ImagePK"/>
+        <attributes>
+            <id name="imageId">
+                <column name="image_id" precision="11"/>
+            </id>
+            <id name="imagePath">
+                <column name="image_path"/>
+            </id>
+        </attributes>
+    </entity>
+    <entity class="Model.Memo">
+        <table name="memo" schema="SOA" catalog=""/>
+        <id-class class="Model.MemoPK"/>
+        <attributes>
+            <id name="id">
+                <column name="id" precision="11"/>
+            </id>
+            <id name="user">
+                <column name="user"/>
+            </id>
+            <basic name="date">
+                <column name="date" precision="-1"/>
+            </basic>
+            <basic name="text">
+                <column name="text"/>
+            </basic>
+            <basic name="time">
+                <column name="time" precision="-1"/>
+            </basic>
+        </attributes>
+    </entity>
+    <entity class="Model.Schedule">
+        <table name="schedule" schema="SOA" catalog=""/>
+        <id-class class="Model.SchedulePK"/>
+        <attributes>
+            <id name="id">
+                <column name="id" precision="11"/>
+            </id>
+            <id name="user">
+                <column name="user"/>
+            </id>
+            <basic name="date">
+                <column name="date" precision="-1"/>
+            </basic>
+            <basic name="time">
+                <column name="time" precision="-1"/>
+            </basic>
+            <basic name="description">
+                <column name="description"/>
+            </basic>
+        </attributes>
+    </entity>
+    <entity class="Model.User">
+        <table name="user" schema="SOA" catalog=""/>
+        <attributes>
+            <id name="username">
+                <column name="username"/>
+            </id>
+            <basic name="password">
+                <column name="password"/>
+            </basic>
+            <basic name="gender">
+                <column name="gender" precision="1"/>
+            </basic>
+            <basic name="registertime">
+                <column name="registertime" precision="-1"/>
+            </basic>
+            <basic name="email">
+                <column name="email"/>
+            </basic>
+            <basic name="birthday">
+                <column name="birthday" precision="-1"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>
