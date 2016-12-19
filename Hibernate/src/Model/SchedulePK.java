@@ -1,5 +1,7 @@
 package Model;
 
+import javax.persistence.Column;
+import javax.persistence.Id;
 import java.io.Serializable;
 
 /**
@@ -9,6 +11,8 @@ public class SchedulePK implements Serializable {
     private int id;
     private String user;
 
+    @Column(name = "id", nullable = false)
+    @Id
     public int getId() {
         return id;
     }
@@ -17,6 +21,8 @@ public class SchedulePK implements Serializable {
         this.id = id;
     }
 
+    @Column(name = "user", nullable = false, length = 255)
+    @Id
     public String getUser() {
         return user;
     }
@@ -25,6 +31,7 @@ public class SchedulePK implements Serializable {
         this.user = user;
     }
 
+    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
@@ -37,6 +44,7 @@ public class SchedulePK implements Serializable {
         return true;
     }
 
+    @Override
     public int hashCode() {
         int result = id;
         result = 31 * result + (user != null ? user.hashCode() : 0);

@@ -1,11 +1,14 @@
 package Model;
 
+import javax.persistence.*;
 import java.sql.Date;
 import java.sql.Timestamp;
 
 /**
  * Created by hubeini on 2016/12/19.
  */
+@Entity
+@IdClass(MemoPK.class)
 public class Memo {
     private int id;
     private Date date;
@@ -13,6 +16,8 @@ public class Memo {
     private String user;
     private Timestamp time;
 
+    @Id
+    @Column(name = "id", nullable = false)
     public int getId() {
         return id;
     }
@@ -21,6 +26,8 @@ public class Memo {
         this.id = id;
     }
 
+    @Basic
+    @Column(name = "date", nullable = false)
     public Date getDate() {
         return date;
     }
@@ -29,6 +36,8 @@ public class Memo {
         this.date = date;
     }
 
+    @Basic
+    @Column(name = "text", nullable = false, length = 255)
     public String getText() {
         return text;
     }
@@ -37,6 +46,8 @@ public class Memo {
         this.text = text;
     }
 
+    @Id
+    @Column(name = "user", nullable = false, length = 255)
     public String getUser() {
         return user;
     }
@@ -45,6 +56,8 @@ public class Memo {
         this.user = user;
     }
 
+    @Basic
+    @Column(name = "time", nullable = false)
     public Timestamp getTime() {
         return time;
     }
@@ -53,6 +66,7 @@ public class Memo {
         this.time = time;
     }
 
+    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
@@ -68,6 +82,7 @@ public class Memo {
         return true;
     }
 
+    @Override
     public int hashCode() {
         int result = id;
         result = 31 * result + (date != null ? date.hashCode() : 0);

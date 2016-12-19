@@ -1,11 +1,16 @@
 package Model;
 
+import javax.persistence.Basic;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
 import java.sql.Date;
 import java.sql.Timestamp;
 
 /**
  * Created by hubeini on 2016/12/19.
  */
+@Entity
 public class User {
     private String username;
     private String password;
@@ -14,6 +19,8 @@ public class User {
     private String email;
     private Date birthday;
 
+    @Id
+    @Column(name = "username", nullable = false, length = 255)
     public String getUsername() {
         return username;
     }
@@ -22,6 +29,8 @@ public class User {
         this.username = username;
     }
 
+    @Basic
+    @Column(name = "password", nullable = false, length = 255)
     public String getPassword() {
         return password;
     }
@@ -30,6 +39,8 @@ public class User {
         this.password = password;
     }
 
+    @Basic
+    @Column(name = "gender", nullable = false)
     public byte getGender() {
         return gender;
     }
@@ -38,6 +49,8 @@ public class User {
         this.gender = gender;
     }
 
+    @Basic
+    @Column(name = "registertime", nullable = false)
     public Timestamp getRegistertime() {
         return registertime;
     }
@@ -46,6 +59,8 @@ public class User {
         this.registertime = registertime;
     }
 
+    @Basic
+    @Column(name = "email", nullable = false, length = 255)
     public String getEmail() {
         return email;
     }
@@ -54,6 +69,8 @@ public class User {
         this.email = email;
     }
 
+    @Basic
+    @Column(name = "birthday", nullable = false)
     public Date getBirthday() {
         return birthday;
     }
@@ -62,6 +79,7 @@ public class User {
         this.birthday = birthday;
     }
 
+    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
@@ -78,6 +96,7 @@ public class User {
         return true;
     }
 
+    @Override
     public int hashCode() {
         int result = username != null ? username.hashCode() : 0;
         result = 31 * result + (password != null ? password.hashCode() : 0);

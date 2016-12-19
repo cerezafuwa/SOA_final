@@ -1,5 +1,7 @@
 package Model;
 
+import javax.persistence.Column;
+import javax.persistence.Id;
 import java.io.Serializable;
 
 /**
@@ -9,6 +11,8 @@ public class ImagePK implements Serializable {
     private int imageId;
     private String imagePath;
 
+    @Column(name = "image_id", nullable = false)
+    @Id
     public int getImageId() {
         return imageId;
     }
@@ -17,6 +21,8 @@ public class ImagePK implements Serializable {
         this.imageId = imageId;
     }
 
+    @Column(name = "image_path", nullable = false, length = 255)
+    @Id
     public String getImagePath() {
         return imagePath;
     }
@@ -25,6 +31,7 @@ public class ImagePK implements Serializable {
         this.imagePath = imagePath;
     }
 
+    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
@@ -37,6 +44,7 @@ public class ImagePK implements Serializable {
         return true;
     }
 
+    @Override
     public int hashCode() {
         int result = imageId;
         result = 31 * result + (imagePath != null ? imagePath.hashCode() : 0);

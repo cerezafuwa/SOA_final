@@ -1,11 +1,14 @@
 package Model;
 
+import javax.persistence.*;
 import java.sql.Date;
 import java.sql.Timestamp;
 
 /**
  * Created by hubeini on 2016/12/19.
  */
+@Entity
+@IdClass(SchedulePK.class)
 public class Schedule {
     private int id;
     private String user;
@@ -13,6 +16,8 @@ public class Schedule {
     private Timestamp time;
     private String description;
 
+    @Id
+    @Column(name = "id", nullable = false)
     public int getId() {
         return id;
     }
@@ -21,6 +26,8 @@ public class Schedule {
         this.id = id;
     }
 
+    @Id
+    @Column(name = "user", nullable = false, length = 255)
     public String getUser() {
         return user;
     }
@@ -29,6 +36,8 @@ public class Schedule {
         this.user = user;
     }
 
+    @Basic
+    @Column(name = "date", nullable = false)
     public Date getDate() {
         return date;
     }
@@ -37,6 +46,8 @@ public class Schedule {
         this.date = date;
     }
 
+    @Basic
+    @Column(name = "time", nullable = false)
     public Timestamp getTime() {
         return time;
     }
@@ -45,6 +56,8 @@ public class Schedule {
         this.time = time;
     }
 
+    @Basic
+    @Column(name = "description", nullable = false, length = 255)
     public String getDescription() {
         return description;
     }
@@ -53,6 +66,7 @@ public class Schedule {
         this.description = description;
     }
 
+    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
@@ -69,6 +83,7 @@ public class Schedule {
         return true;
     }
 
+    @Override
     public int hashCode() {
         int result = id;
         result = 31 * result + (user != null ? user.hashCode() : 0);
