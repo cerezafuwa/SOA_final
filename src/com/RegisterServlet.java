@@ -9,7 +9,8 @@ import javax.servlet.http.*;
 import java.io.IOException;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.sql.Date;
+import java.util.Date;
+
 
 /**
  * Created by hubeini on 2016/12/25.
@@ -36,12 +37,15 @@ public class RegisterServlet extends HttpServlet {
             Date birthday_date = null;
             try {
                 SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-                birthday_date = (Date) sdf.parse(birthday);
+                birthday_date = sdf.parse(birthday);
             } catch (ParseException e) {
                 e.printStackTrace();
             }
 
-            User user1 = new User(username, password, gender_bool, birthday_date, email);
+            java.sql.Date birthday_date1;
+            birthday_date1 = new java.sql.Date(birthday_date.getTime());
+
+            User user1 = new User(username, password, gender_bool, birthday_date1, email);
             UserDAO.getInstance().save(user1);
 
             if (UserDAO.getInstance().findById(username) == null)
