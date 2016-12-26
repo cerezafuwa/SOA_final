@@ -23,8 +23,11 @@ public class RegJsp extends HttpServlet{
             pw.println("<h1>注册界面</h1>");
             pw.println("<form action=register method=post>");
             pw.println("用户名:<input type=text name=username><br>");
-            pw.println("密码:<input type=password name=passwd><br>");
-            pw.println("<input type=submit value=注册><br>");
+            pw.println("密码:<input type=password name=password><br>");
+            pw.println("<input type=\"radio\" name=\"inlineRadioOptions\" id=\"inlineRadio1\" value=\"option1\" onclick=\"checkForButton()\"> Male");
+            pw.println("<input type=\"radio\" name=\"inlineRadioOptions\" id=\"inlineRadio2\" value=\"option2\" onclick=\"checkForButton()\"> Female<br>");
+            pw.println("生日:<input type=text name=birthday><br>");
+            pw.println("<button type=submit value=注册>你是智障</button>");
             pw.println("</form>");
             pw.println("<body/>");
             pw.println("<html/>");

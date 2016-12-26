@@ -22,8 +22,6 @@
         <servlet-name>LoginServlet</servlet-name>
         <url-pattern>/login</url-pattern>
     </servlet-mapping>
-
-
     
     <servlet>
         <servlet-name>RegJsp</servlet-name>
@@ -34,6 +32,39 @@
         <url-pattern>/regjsp</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>RegisterServlet</servlet-name>
+        <servlet-class>com.RegisterServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RegisterServlet</servlet-name>
+        <url-pattern>/register</url-pattern>
+    </servlet-mapping>
 
+    <servlet>
+        <servlet-name>InfoJsp</servlet-name>
+        <servlet-class>com.InfoJsp</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>InfoJsp</servlet-name>
+        <url-pattern>/info</url-pattern>
+    </servlet-mapping>
 
+    <servlet>
+        <servlet-name>UserInfoServlet</servlet-name>
+        <servlet-class>com.UserInfoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserInfoServlet</servlet-name>
+        <url-pattern>/userinfo</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>AddMemoServlet</servlet-name>
+        <servlet-class>com.AddMemoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddMemoServlet</servlet-name>
+        <url-pattern>/addmemo</url-pattern>
+    </servlet-mapping>
 </web-app>
