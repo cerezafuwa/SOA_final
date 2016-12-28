@@ -6,7 +6,7 @@ import javax.persistence.Id;
 import javax.persistence.IdClass;
 
 /**
- * Created by hubeini on 2016/12/25.
+ * Created by hubeini on 2016/12/28.
  */
 @Entity
 @IdClass(ImagePK.class)

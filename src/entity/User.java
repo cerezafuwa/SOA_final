@@ -6,6 +6,7 @@ import javax.persistence.Basic;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.xml.bind.annotation.XmlRootElement;
 import java.sql.Date;
 import java.sql.Timestamp;
 import java.time.LocalDateTime;
@@ -13,8 +14,8 @@ import java.time.LocalDateTime;
 /**
  * Created by hubeini on 2016/12/25.
  */
-@Entity
-public class User {
+@XmlRootElement
+public class User{
     private String username;
     private String password;
     private boolean gender;
@@ -39,15 +40,6 @@ public class User {
      * generate JSONObject for user info
      * @return user infomation (no password)
      */
-    public JSONObject JSONInfo(){
-        JSONObject json = new JSONObject();
-        json.put("username", username);
-        json.put("gender",gender);
-        json.put("birthday",birthday);
-        json.put("email",email);
-        json.put("registerTime",registertime.toString());
-        return json;
-    }
 
     @Id
     @Column(name = "username", nullable = false, length = 255)

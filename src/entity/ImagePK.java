@@ -5,7 +5,7 @@ import javax.persistence.Id;
 import java.io.Serializable;
 
 /**
- * Created by hubeini on 2016/12/25.
+ * Created by hubeini on 2016/12/28.
  */
 public class ImagePK implements Serializable {
     private int imageId;
