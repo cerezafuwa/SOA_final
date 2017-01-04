@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="D:\SOS\MyCalendarDemo-master\MyCalendarDemo-master 3\app\build\intermediates\exploded-aar\com.github.wangjiegulu\RapidFloatingActionButton\1.0.3\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="7ace574bd540f619e04e8217be64111fdf1f2a67">
+        <dex dex="D:\SOS\MyCalendarDemo-master\MyCalendarDemo-master 3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.wangjiegulu-RapidFloatingActionButton-1.0.3_0d83b367261d623504c74f857e730e8376d7e90b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\fengyuqing\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="D:\SOS\MyCalendarDemo-master\MyCalendarDemo-master 3\app\build\intermediates\transforms\dex\debug\folders\1000\10\library-2.4.0_f1f2cf058dc99ef3342f1f31c0552ca0ef2abe4b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\SOS\MyCalendarDemo-master\MyCalendarDemo-master 3\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8d93d76a74eb4035666f34d6ba018072b7708254">
+        <dex dex="D:\SOS\MyCalendarDemo-master\MyCalendarDemo-master 3\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_53a9429e7dc9dd153413fb5157f80d45b1bd6628\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\SOS\MyCalendarDemo-master\MyCalendarDemo-master 3\app\build\intermediates\exploded-aar\se.emilsjolander\stickylistheaders\2.5.2\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="9f0808c3f609d8fe93018a8108d5a3d7c9cb5458">
+        <dex dex="D:\SOS\MyCalendarDemo-master\MyCalendarDemo-master 3\app\build\intermediates\transforms\dex\debug\folders\1000\10\se.emilsjolander-stickylistheaders-2.5.2_6d2f42edef3f6dfde895e585c25aba02ddaaa67c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\fengyuqing\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.0.0-beta4\739e00dea1f0ac04fdb9b6160d667e23cc50a791\retrofit-2.0.0-beta4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="739e00dea1f0ac04fdb9b6160d667e23cc50a791">
+        <dex dex="D:\SOS\MyCalendarDemo-master\MyCalendarDemo-master 3\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.0.0-beta4_d020537e7401a5e9125ba3c680a0656bbaed1be7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\fengyuqing\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.4\695b63d702f505b9b916e02272e3b6381bade7f\gson-2.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
+        <dex dex="D:\SOS\MyCalendarDemo-master\MyCalendarDemo-master 3\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.4_d3a80cba47d87148038a6ddda1da68c0a68ddf26\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\SOS\MyCalendarDemo-master\MyCalendarDemo-master 3\app\build\intermediates\exploded-aar\com.microsoft.projectoxford\vision\1.0.354\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="9b1a002a8b4bdd3d66cbadfdc4b16dfabd8e1042">
+        <dex dex="D:\SOS\MyCalendarDemo-master\MyCalendarDemo-master 3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.microsoft.projectoxford-vision-1.0.354_659d63d7c0e0f3d1b2268c6cbbb9ddc968a172f3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\SOS\MyCalendarDemo-master\MyCalendarDemo-master 3\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e3885783ff8926ed9e2fdcd16816c2e1e73e7aee">
+        <dex dex="D:\SOS\MyCalendarDemo-master\MyCalendarDemo-master 3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-23.2.1_d30a12739d05c4d5a458058c302456aef8bdedd6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\android-studio\sdk1\extras\android\m2repository\com\android\support\support-annotations\23.2.1\support-annotations-23.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="D:\SOS\MyCalendarDemo-master\MyCalendarDemo-master 3\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.2.1_72398f1ba56905101aff77530a074070c5395b02\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\SOS\MyCalendarDemo-master\MyCalendarDemo-master 3\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="0ad9d7c05a353d7ad1cb39cbe7f475121ffacfb2">
+        <dex dex="D:\SOS\MyCalendarDemo-master\MyCalendarDemo-master 3\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_4d171f2a9e44ae7c688b5a32feaab88270eeff72\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\SOS\MyCalendarDemo-master\MyCalendarDemo-master 3\app\build\intermediates\exploded-aar\com.microsoft.projectoxford\vision\1.0.354\jars\libs\commons-io-2.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b1b6ea3b7e4aa4f492509a4952029cd8e48019ad">
+        <dex dex="D:\SOS\MyCalendarDemo-master\MyCalendarDemo-master 3\app\build\intermediates\transforms\dex\debug\folders\1000\10\commons-io-2.4_1aa8fb5b8f7efabc63ec2c264f6e390df0e9911e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\SOS\MyCalendarDemo-master\MyCalendarDemo-master 3\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\libs\internal_impl-23.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="D:\SOS\MyCalendarDemo-master\MyCalendarDemo-master 3\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.2.1_03637801b9d8b5daa27f02e6d521488453812d94\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\SOS\MyCalendarDemo-master\MyCalendarDemo-master 3\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="D:\SOS\MyCalendarDemo-master\MyCalendarDemo-master 3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-23.2.1_4c7a27f48c9dc1bd44e9752e3bdf01385641aaf1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\SOS\MyCalendarDemo-master\MyCalendarDemo-master 3\app\build\intermediates\exploded-aar\io.reactivex\rxandroid\1.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d4c4b83de2f6412072d2a29b1b7a5b03edaad5ff">
+        <dex dex="D:\SOS\MyCalendarDemo-master\MyCalendarDemo-master 3\app\build\intermediates\transforms\dex\debug\folders\1000\10\io.reactivex-rxandroid-1.1.0_5f0c038a6f8a0b2809260c839e62db9acd93f315\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\fengyuqing\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\7.0.1\d5d13ea991eab0252e3710e5df3d6a9d4b21d461\butterknife-7.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="D:\SOS\MyCalendarDemo-master\MyCalendarDemo-master 3\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-7.0.1_2f9e604f805d13b88603921ee41d3fcb4dbc866f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\fengyuqing\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.0.1\b34c1f2d993044656e87f88970b6818e99e886ba\okhttp-3.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="b34c1f2d993044656e87f88970b6818e99e886ba">
+        <dex dex="D:\SOS\MyCalendarDemo-master\MyCalendarDemo-master 3\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.0.1_a88e85b7635376f4c1f9c2fe138fc9908283d2da\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\fengyuqing\.gradle\caches\modules-2\files-2.1\com.mcxiaoke.volley\library\1.0.19\a8f23f65fc1e522ee4a1a697ee569901a46741fa\library-1.0.19.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="D:\SOS\MyCalendarDemo-master\MyCalendarDemo-master 3\app\build\intermediates\transforms\dex\debug\folders\1000\10\library-1.0.19_6d52467f73dac32e2e63a22112c7afddf9102e16\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\fengyuqing\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\adapter-rxjava\2.0.0-beta4\bd49baf667542c7d06f71e598bdee7fe57272013\adapter-rxjava-2.0.0-beta4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="bd49baf667542c7d06f71e598bdee7fe57272013">
+        <dex dex="D:\SOS\MyCalendarDemo-master\MyCalendarDemo-master 3\app\build\intermediates\transforms\dex\debug\folders\1000\10\adapter-rxjava-2.0.0-beta4_544a00b3c212613f1cdb9cb01fe4acc42358b5f6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\SOS\MyCalendarDemo-master\MyCalendarDemo-master 3\app\build\intermediates\exploded-aar\com.android.support\design\23.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="72961d8b453b46e277702f18de9d210bc019e36e">
+        <dex dex="D:\SOS\MyCalendarDemo-master\MyCalendarDemo-master 3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-23.2.1_9bb54ec0f38244c24f49e633a128eb3d536f3477\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\fengyuqing\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="D:\SOS\MyCalendarDemo-master\MyCalendarDemo-master 3\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_fe2ae39c6e6713db23deb7a90d36bcec0d5a555e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\SOS\MyCalendarDemo-master\MyCalendarDemo-master 3\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="D:\SOS\MyCalendarDemo-master\MyCalendarDemo-master 3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.2.1_0245405ca22bfc0ffe87c01956fc41d0d7ae4bfe\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\fengyuqing\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.1.0\748f0546d5c3c27f1aef07270ffea0c45f0c42a4\rxjava-1.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="748f0546d5c3c27f1aef07270ffea0c45f0c42a4">
+        <dex dex="D:\SOS\MyCalendarDemo-master\MyCalendarDemo-master 3\app\build\intermediates\transforms\dex\debug\folders\1000\10\rxjava-1.1.0_c01b9eba1d1a0a194aa90d35b0737bd763c9718a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\fengyuqing\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.0.0-beta4\de5935a367ba5e343e9df786ac8fc0c7d52b5f0c\converter-gson-2.0.0-beta4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="de5935a367ba5e343e9df786ac8fc0c7d52b5f0c">
+        <dex dex="D:\SOS\MyCalendarDemo-master\MyCalendarDemo-master 3\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.0.0-beta4_f492bdaab7e34a9f4ff82179a5455f2d6d1d5940\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\SOS\MyCalendarDemo-master\MyCalendarDemo-master 3\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="D:\SOS\MyCalendarDemo-master\MyCalendarDemo-master 3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-23.2.1_f3f66035d654413d2d3be3385e04864d89289e2c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\fengyuqing\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="D:\SOS\MyCalendarDemo-master\MyCalendarDemo-master 3\app\build\intermediates\transforms\dex\debug\folders\1000\10\picasso-2.5.2_8b179534fe7bcecdf0f8dd727169904ff1d5500b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\SOS\MyCalendarDemo-master\MyCalendarDemo-master 3\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="D:\SOS\MyCalendarDemo-master\MyCalendarDemo-master 3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-23.2.1_5eb189b39283af6524df548ee888231032f3e3e9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\SOS\MyCalendarDemo-master\MyCalendarDemo-master 3\app\build\intermediates\exploded-aar\com.github.wangjiegulu\AndroidBucket\1.0.4\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a2c9ce94bbc3c8bc1834c596dc5c8eca8fc04166">
+        <dex dex="D:\SOS\MyCalendarDemo-master\MyCalendarDemo-master 3\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.github.wangjiegulu-AndroidBucket-1.0.4_8777c7e491065283bfcb610ad14ca8ee9fd297e8\classes.dex" />
+    </item>
+
+</items>
