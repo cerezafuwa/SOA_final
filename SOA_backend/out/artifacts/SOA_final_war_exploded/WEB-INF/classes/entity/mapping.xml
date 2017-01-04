@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings xmlns="http://java.sun.com/xml/ns/persistence/orm"
+        version="2.0">
+
+    <entity class="entity.Memo">
+        <table name="memo" schema="SOA" catalog=""/>
+        <id-class class="entity.MemoPK"/>
+        <attributes>
+            <id name="user">
+                <column name="user"/>
+            </id>
+            <id name="time">
+                <column name="time" precision="-1"/>
+            </id>
+            <basic name="date">
+                <column name="date" precision="-1"/>
+            </basic>
+            <basic name="text">
+                <column name="text"/>
+            </basic>
+        </attributes>
+    </entity>
+    <entity class="entity.Schedule">
+        <table name="schedule" schema="SOA" catalog=""/>
+        <id-class class="entity.SchedulePK"/>
+        <attributes>
+            <id name="user">
+                <column name="user"/>
+            </id>
+            <id name="time">
+                <column name="time" precision="-1"/>
+            </id>
+            <basic name="date">
+                <column name="date" precision="-1"/>
+            </basic>
+            <basic name="description">
+                <column name="description"/>
+            </basic>
+        </attributes>
+    </entity>
+    <entity class="entity.User">
+        <table name="user" schema="SOA" catalog=""/>
+        <attributes>
+            <id name="username">
+                <column name="username"/>
+            </id>
+            <basic name="password">
+                <column name="password"/>
+            </basic>
+            <basic name="gender">
+                <column name="gender" precision="1"/>
+            </basic>
+            <basic name="registertime">
+                <column name="registertime" precision="-1"/>
+            </basic>
+            <basic name="email">
+                <column name="email"/>
+            </basic>
+            <basic name="birthday">
+                <column name="birthday" precision="-1"/>
+            </basic>
+        </attributes>
+    </entity>
+</entity-mappings>
