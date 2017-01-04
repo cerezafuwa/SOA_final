@@ -24,11 +24,14 @@ When users enter our app, they can see all days sequenced by week and month. Bes
 #Configuration and Deployment Description
 ###Development environment:
 ####Frontend
+
 * Andriod Studio 2.2.x
 * Moto SDK22
 ####Backend
+
 * IntelliJ IDEA 2016.2.5
 ###Configurations:
+
 1.Bulid APK<br>
 2.Run the prject<br>
 #System Architecture
@@ -103,14 +106,17 @@ form-data:
 
 #Team collaboration
 ###Division of work
+
 - **1350588 胡贝妮 **  
     - System architecture design  
     - Back-end development  
     - Part of fore-end design
+    
 - **1452661 冯雨晴 ** 
     - Back-end development  
     - Part of fore-end design
     - Parse API
+    
 - **1452798 李想 ** 
     - Front-end development 
     - Write Document
